@@ -60,3 +60,13 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.input-box{
+    position: relative;
+    width: 100%;
+    min-height: 130px;
+    padding: 18px;
+    padding-bottom: 45px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
