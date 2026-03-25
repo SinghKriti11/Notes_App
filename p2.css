@@ -77,7 +77,7 @@
     color: #333;
 }
 
-input-box small{
+.input-box small{
     position: absolute;
     bottom: 10px;
     left: 15px;
@@ -92,4 +92,3 @@ input-box small{
     right: 10px;
     cursor: pointer;
 }
-
