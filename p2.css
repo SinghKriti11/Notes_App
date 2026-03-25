@@ -42,3 +42,8 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
+.btn img{
+    width:20px;
+    margin-right: 8px;
+}
