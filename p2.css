@@ -85,3 +85,11 @@ input-box small{
     color: #444;
 }
 
+.input-box img{
+    width: 22px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
