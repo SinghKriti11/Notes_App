@@ -20,8 +20,6 @@ function showNotes(){
 function updateStorage(){
     localStorage.setItem("notes", notesContainer.innerHTML);
 }
-
-
 function fixOldNotes(){
     const notes = document.querySelectorAll(".input-box");
 
@@ -82,12 +80,14 @@ createBtn.addEventListener("click", () => {
     updateStorage();
 });
 
+
 notesContainer.addEventListener("click", function(e){
     if(e.target.closest("img")){
         e.target.closest(".input-box").remove();
         updateStorage();
     }
 });
+
 
 let timeout;
 notesContainer.addEventListener("input", () => {
