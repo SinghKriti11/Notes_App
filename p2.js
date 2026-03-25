@@ -50,3 +50,6 @@ function fixOldNotes(){
         }
     });
 }
+
+showNotes();
+fixOldNotes();
