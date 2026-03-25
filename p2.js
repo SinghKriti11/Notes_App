@@ -53,3 +53,31 @@ function fixOldNotes(){
 
 showNotes();
 fixOldNotes();
+
+createBtn.addEventListener("click", () => {
+    let inputBox = document.createElement("div");
+    let text = document.createElement("div");
+    let img = document.createElement("img");
+    let time = document.createElement("small");
+
+    inputBox.className = "input-box";
+    text.className = "note-text";
+    text.setAttribute("contenteditable", "true");
+
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    inputBox.style.backgroundColor = randomColor;
+
+    img.src = "./delete.png";
+
+    time.innerText = new Date().toLocaleString();
+
+    inputBox.appendChild(text);
+    inputBox.appendChild(time);
+    inputBox.appendChild(img);
+
+    notesContainer.appendChild(inputBox);
+
+    text.focus();
+
+    updateStorage();
+});
