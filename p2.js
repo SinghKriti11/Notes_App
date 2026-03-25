@@ -81,3 +81,10 @@ createBtn.addEventListener("click", () => {
 
     updateStorage();
 });
+
+notesContainer.addEventListener("click", function(e){
+    if(e.target.closest("img")){
+        e.target.closest(".input-box").remove();
+        updateStorage();
+    }
+});
