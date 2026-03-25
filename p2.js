@@ -17,3 +17,6 @@ function showNotes(){
         notesContainer.innerHTML = saved;
     }
 }
+function updateStorage(){
+    localStorage.setItem("notes", notesContainer.innerHTML);
+}
