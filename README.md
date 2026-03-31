@@ -15,7 +15,6 @@ This app allows users to create, edit, and delete notes with automatic saving us
 *  Responsive and clean UI
 *  Fast and lightweight (no frameworks used)
 
-
 ---
 
 ## 🛠️ Tech Stack
