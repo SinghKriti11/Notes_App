@@ -5,7 +5,6 @@ This app allows users to create, edit, and delete notes with automatic saving us
 
 ---
 
-
 ## 🚀 Features
 
 *  Create and edit notes dynamically
