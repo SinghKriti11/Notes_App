@@ -17,7 +17,7 @@ This app allows users to create, edit, and delete notes with automatic saving us
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 * **HTML5**
 * **CSS3**
