@@ -13,7 +13,7 @@ This app allows users to create, edit, and delete notes with automatic saving us
 *  Random background colors for each note
 *  Timestamp (date & time) for every note 
 *  Responsive and clean UI
-*  Fast and lightweight (no frameworks used) 
+*  Fast and lightweight (no frameworks used)  
 
 ---
 
