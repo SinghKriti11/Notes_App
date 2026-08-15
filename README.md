@@ -7,7 +7,7 @@ This app allows users to create, edit, and delete notes with automatic saving us
 
 ## 🚀 Features
 
-*  Create and edit notes dynamically 
+*  Create and edit notes dynamically  
 *  Auto-save notes using browser localStorage   
 *  Delete notes instantly
 *  Random background colors for each note
