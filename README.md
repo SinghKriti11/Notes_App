@@ -1,4 +1,4 @@
-﻿# 📝 Notes App
+ ﻿# 📝 Notes App
 
 A simple and elegant **Notes App** built using **HTML, CSS, and JavaScript**.  
 This app allows users to create, edit, and delete notes with automatic saving using **localStorage**.                                 
